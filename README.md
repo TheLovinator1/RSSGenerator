@@ -8,7 +8,7 @@ This program generates [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https
 
 
 ## Authors
-* **Joakim Hellsén** - *Initial work* - [TheLovinator1](https://github.com/TheLovinator1)
+* **Joakim Hellsén** - *Initial work* - [TheLovinator1](https://github.com/TheLovinator1)  
 See also the list of [contributors](https://github.com/TheLovinator1/RSSGenerator/contributors) who participated in this project.
 
 ## Support
