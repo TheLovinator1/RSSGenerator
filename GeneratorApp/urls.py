@@ -1,8 +1,7 @@
-from . import views
-from django.urls import include
-
 from django.urls import path
-from .feeds import PostsFeed, AtomSiteNewsFeed
+
+from . import views
+from .feeds import AtomSiteNewsFeed, PostsFeed
 
 urlpatterns = [
     path("feed/rss", PostsFeed(), name="rss_feed"),
@@ -10,5 +9,5 @@ urlpatterns = [
     path("", views.PostList.as_view(), name="home"),
     path(
         "<slug:slug>/", views.PostDetail.as_view(), name="post_detail"
-    ),  # TODO: Chnage to int:ID
+    ),  # TODO: Change to int:ID
 ]
