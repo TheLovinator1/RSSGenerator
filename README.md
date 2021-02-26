@@ -6,10 +6,8 @@ This program generates [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https
 * [Django](https://www.djangoproject.com/) - The web framework ([BSD License](https://github.com/django/django/blob/master/LICENSE)) 
 * [Python](https://www.python.org/) - The language used to create this program ([Python Software Foundation License](https://docs.python.org/3/license.html))
 
-
-## Authors
-* **Joakim Hellsén** - *Initial work* - [TheLovinator1](https://github.com/TheLovinator1)  
-See also the list of [contributors](https://github.com/TheLovinator1/RSSGenerator/contributors) who participated in this project.
+## Run
+* Start server with `python manage.py runserve`
 
 ## Support
 
