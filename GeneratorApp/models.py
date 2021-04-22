@@ -22,4 +22,3 @@ class Post(models.Model):
         from django.urls import reverse
 
         return reverse("post_detail", kwargs={"slug": str(self.slug)})
-
