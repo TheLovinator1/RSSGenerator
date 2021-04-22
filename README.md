@@ -7,7 +7,7 @@ This program generates [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https
 * [Python](https://www.python.org/) - The language used to create this program ([Python Software Foundation License](https://docs.python.org/3/license.html))
 
 ## Run
-* Start server with `python manage.py runserve`
+* Start server with `python manage.py runserver`
 
 ## Support
 
